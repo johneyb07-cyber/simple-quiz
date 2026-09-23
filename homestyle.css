@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f4f7;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* Main Container */
+
+.main-body {
+    background-color: white;
+
+    width: 600px;
+
+    padding: 50px 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Main Heading */
+
+.main-body h1 {
+    color: #222222;
+
+    font-size: 34px;
+
+    margin-bottom: 20px;
+
+    font-weight: 600;
+}
+
+/* Paragraph */
+
+.main-body p {
+    color: #666666;
+
+    font-size: 17px;
+
+    margin-bottom: 10px;
+
+    line-height: 1.5;
+}
+
+/* Start Button */
+
+.main-body button {
+    margin-top: 25px;
+
+    background-color: #007bff;
+
+    border: none;
+
+    padding: 12px 30px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+/* Button Hover */
+
+.main-body button:hover {
+    background-color: #0056b3;
+
+    transform: translateY(-2px);
+}
+
+/* Link */
+
+.main-body button a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 16px;
+
+    font-weight: bold;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    .main-body {
+        width: 90%;
+
+        padding: 40px 25px;
+    }
+
+    .main-body h1 {
+        font-size: 27px;
+    }
+
+    .main-body p {
+        font-size: 15px;
+    }
+}

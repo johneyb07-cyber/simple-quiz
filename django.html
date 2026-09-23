@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Django Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <h2>Welcome To Django Quiz</h2>
+
+        <h2 id="h2">Which command is used to create a new Django project?</h2>
+
+        <ul id="options">
+
+            <li>
+                <input type="radio" name="answer" value="django-start">
+                django-start
+            </li>
+
+            <li>
+                <input type="radio" name="answer" value="django-admin startproject">
+                django-admin startproject
+            </li>
+
+            <li>
+                <input type="radio" name="answer" value="django-create">
+                django-create
+            </li>
+
+            <li>
+                <input type="radio" name="answer" value="python-create">
+                python-create
+            </li>
+
+        </ul>
+
+        <button id="previous" hidden>Previous</button>
+
+        <button id="next" disabled>Next</button>
+
+        <button id="restart" hidden>ReStart</button>
+
+        <button id="category" hidden>Category</button>
+
+        <p id="result"></p>
+
+    </div>
+
+    <script src="scriptdjango.js"></script>
+
+</body>
+
+</html>

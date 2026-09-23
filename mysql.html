@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MySQL Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+
+        <h2>Welcome To MySQL Quiz</h2>
+
+        <h2 id="h2">Which command is used to retrieve data from a table?</h2>
+
+        <ul id="options">
+
+            <li>
+                <input type="radio" name="answer" value="SELECT">
+                SELECT
+            </li>
+
+            <li>
+                <input type="radio" name="answer" value="GET">
+                GET
+            </li>
+
+            <li>
+                <input type="radio" name="answer" value="FETCH">
+                FETCH
+            </li>
+
+            <li>
+                <input type="radio" name="answer" value="RETRIEVE">
+                RETRIEVE
+            </li>
+
+        </ul>
+
+        <button id="previous" hidden>Previous</button>
+
+        <button id="next" disabled>Next</button>
+
+        <button id="restart" hidden>ReStart</button>
+
+        <button id="category" hidden>Category</button>
+
+        <p id="result"></p>
+
+    </div>
+
+    <script src="scriptmysql.js"></script>
+
+</body>
+
+</html>

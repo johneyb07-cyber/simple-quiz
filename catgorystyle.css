@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f4f7;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    padding: 40px;
+
+    flex-wrap: wrap;
+}
+
+/* Main Heading */
+
+body > h1 {
+    width: 100%;
+    text-align: center;
+
+    color: #222222;
+
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Quiz Cards */
+
+body > div {
+    width: 240px;
+    min-height: 220px;
+
+    background-color: white;
+
+    padding: 30px 20px;
+
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+
+    transition: 0.3s ease;
+}
+
+/* Card Hover */
+
+body > div:hover {
+    transform: translateY(-6px);
+
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* Heading */
+
+body > div h2 {
+    color: #222222;
+
+    font-size: 24px;
+
+    margin-bottom: 12px;
+}
+
+/* Questions */
+
+body > div p {
+    color: #666666;
+
+    font-size: 16px;
+
+    margin-bottom: 22px;
+}
+
+/* Button */
+
+body > div button {
+    background-color: #007bff;
+
+    border: none;
+
+    padding: 11px 24px;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+/* Button Hover */
+
+body > div button:hover {
+    background-color: #0056b3;
+}
+
+/* Link */
+
+body > div button a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    font-weight: bold;
+}
+
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 25px;
+
+        gap: 20px;
+    }
+
+    body > h1 {
+        font-size: 24px;
+    }
+
+    body > div {
+        width: 100%;
+        max-width: 320px;
+    }
+}
